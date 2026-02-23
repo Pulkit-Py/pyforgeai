@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyforgeai"
+version = "0.1.0"
+description = "Lightweight, modular, production-first AI agent framework."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "pyforgeai contributors" }]
+dependencies = [
+  "pydantic>=2.7,<3",
+]
+
+[project.optional-dependencies]
+openai = ["openai>=1.40.0"]
+anthropic = ["anthropic>=0.34.0"]
+gemini = ["google-genai>=0.3.0"]
+ollama = ["ollama>=0.3.0"]
+api = ["fastapi>=0.111.0", "uvicorn>=0.30.0"]
+dev = [
+  "pytest>=8.3.0",
+  "pytest-asyncio>=0.24.0",
+  "ruff>=0.6.0",
+  "mypy>=1.11.0",
+]
+all = [
+  "openai>=1.40.0",
+  "anthropic>=0.34.0",
+  "google-genai>=0.3.0",
+  "ollama>=0.3.0",
+  "fastapi>=0.111.0",
+  "uvicorn>=0.30.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["forgeai"]
+exclude = ["tests"]
