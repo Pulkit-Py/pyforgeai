@@ -1,4 +1,23 @@
-# pyforgeai
+<!-- Header -->
+<p align="center">
+  <h1 align="center">PYFORGEAI</h1>
+  <h4 align="center">AI AGENT FRAMEWORK</h4>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-0.1.0-green?style=for-the-badge" alt="version">
+  <img src="https://img.shields.io/github/license/Pulkit-Py/pyforgeai?style=for-the-badge" alt="license">
+  <img src="https://img.shields.io/github/stars/Pulkit-Py/pyforgeai?style=for-the-badge" alt="stars">
+  <img src="https://img.shields.io/github/issues/Pulkit-Py/pyforgeai?color=red&style=for-the-badge" alt="issues">
+  <img src="https://img.shields.io/github/forks/Pulkit-Py/pyforgeai?color=teal&style=for-the-badge" alt="forks">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Author-Pulkit--py-cyan?style=flat-square" alt="author">
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square" alt="open source">
+  <img src="https://img.shields.io/badge/MADE%20IN-INDIA-blue?colorA=%23ff0000&colorB=%23017e40&style=flat-square" alt="made in india">
+  <img src="https://img.shields.io/badge/Written%20In-Python-cyan?style=flat-square" alt="python">
+</p>
 
 `pyforgeai` is the PyPI package for the `forgeai` Python framework, a lightweight production-first toolkit for building autonomous AI agents with:
 - async execution
@@ -9,6 +28,8 @@
 - simple orchestration
 
 It is designed for clean architecture and easy extension, without unnecessary abstractions.
+
+Repository: https://github.com/Pulkit-Py/pyforgeai
 
 ## Table of Contents
 - [Why pyforgeai](#why-pyforgeai)
@@ -35,7 +56,7 @@ It is designed for clean architecture and easy extension, without unnecessary ab
 
 ## Author and Profiles
 - GitHub: https://github.com/Pulkit-Py
-- Instagram: https://www.instagram.com/pulkit.py/
+- Instagram: https://www.instagram.com/pulkit_py/
 - LinkedIn: https://www.linkedin.com/in/pulkit-py/
 
 ## Core Concepts
@@ -261,3 +282,16 @@ Implement `BaseProvider.generate(prompt: str) -> str`, then register it in:
 
 ## License
 MIT
+
+## Support
+If you found this project helpful, consider:
+- Giving it a ⭐ on GitHub
+- Following me on social media
+- Sharing it with others who might find it useful
+
+GitHub Repository: https://github.com/Pulkit-Py/pyforgeai
+
+For support, please open an issue on the GitHub repository.
+
+---
+Made with love by [GitHub](https://github.com/Pulkit-Py) | [Instagram](https://www.instagram.com/pulkit_py/) | [LinkedIn](https://www.linkedin.com/in/pulkit-py/) in India.
